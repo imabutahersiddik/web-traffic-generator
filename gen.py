@@ -29,7 +29,7 @@ except ImportError:
         # be sure to comment out the list below it.
         #ROOT_URLS = ["https://digg.com/"]
         ROOT_URLS = [
-            "https://www.reddit.com"
+            "https://erath.vercel.app"
         ]
 
         # items can be a URL "https://t.co" or simple string to check for "amazon"
