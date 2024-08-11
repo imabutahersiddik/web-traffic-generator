@@ -6,16 +6,11 @@ DEBUG = False  # set to True to enable useful console output
 
 # use this single item list to test how a site responds to this crawler
 # be sure to comment out the list below it.
-#ROOT_URLS = ["https:///digg.com/"]
+#ROOT_URLS = ["https:///erath.vercel.app/"]
 
 ROOT_URLS = [
-	"https://digg.com/",
-	"https://www.yahoo.com",
-	"https://www.reddit.com",
-	"http://www.cnn.com",
-	"http://www.ebay.com",
-	"https://en.wikipedia.org/wiki/Main_Page",
-	"https://austin.craigslist.org/"
+	"https://erath.vercel.app/",
+	"https://fast-palm-ai-chatbot.vercel.app/?ref=producthunt"
 	]
 
 
@@ -46,5 +41,5 @@ blacklist = [
 	]  
 
 # must use a valid user agent or sites will hate you
-USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10_12_3) ' \
-	'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/56.0.2924.87 Safari/537.36'
+USER_AGENT = 'Mozilla/5.0 (Macintosh; Intel Mac OS X 13_0_0) ' \
+             'AppleWebKit/537.36 (KHTML, like Gecko) Chrome/100.0.4896.75 Safari/537.36'
